@@ -27,14 +27,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className='min-h-screen flex flex-col'>
+        className='w-full bg-white px-4 md:px-16 xl:px-32 2xl:px-84'>
           {/* Toaster */}
 
           <header className="border-b sticky top-0 bg-white z-50">
             <Header />
           </header>
 
-          <div className="bg-[#F4F2ED] flex-1 w-full">
+          <div className="bg-slate-100 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64">
             <main>{children}</main>
           </div>
 
