@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className='w-full bg-white px-4 md:px-16 xl:px-32 2xl:px-84'>
+        className='w-full bg-slate-100 px-4 md:px-16 xl:px-32 2xl:px-84'>
           {/* Toaster */}
 
           <header className="border-b sticky top-0 bg-white z-50">

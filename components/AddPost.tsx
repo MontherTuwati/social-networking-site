@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const AddPost = () => {
   return (
-    <div className="p-4 bg-white rounded-lg flex gap-4 justify-between text-sm">
+    <div className="p-4 bg-white shadow-md rounded-lg flex gap-4 justify-between text-sm">
       {/* Avatar */}
       <div>
         <Image src='' alt='' className="w-12 h-12 object-cover rounded-full"/>
@@ -17,7 +17,7 @@ const AddPost = () => {
           <FaceSmileIcon className="h-6 w-6 text-yellow-500 bg-black rounded-full cursor-pointer self-end" />
         </div>
         {/* Post Options */}
-        <div className="flex items-center flex-wrap gap-4 mt-4 text-gray-400">
+        <div className="flex items-center justify-between flex-wrap gap-4 mt-4 text-gray-400">
           <div><PhotoIcon className="h-8 w-8 text-green-500 cursor-pointer" />Photo/Video</div>
           <div><VideoCameraIcon className="h-8 w-8 text-red-500 cursor-pointer" />Go Live!</div>
           <div><TicketIcon className="h-8 w-8 text-blue-500 cursor-pointer" />Events</div>
